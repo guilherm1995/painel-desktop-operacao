@@ -1,0 +1,7 @@
+pandas
+customtkinter
+requests
+urllib3
+gspread
+oauth2client
+openpyxl

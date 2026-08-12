@@ -1,0 +1,52 @@
+# ---- credenciais: nunca versionar ----
+.env
+.env.*
+!.env.example
+*credentials*.json
+*credenciais*.json
+vpn_config.json
+config.json
+token.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ---- sessões de mensageria (dão acesso à conta) ----
+auth_*/
+perfil_*/
+.wwebjs_auth/
+session-*.json
+creds.json
+
+# ---- dados operacionais e de clientes (LGPD) ----
+dados/
+uploads/
+saida/
+relatorios/
+arquivos_recebidos/
+*.xlsx
+*.xls
+*.csv
+*.log
+
+# ---- build e dependências ----
+__pycache__/
+*.py[cod]
+node_modules/
+build/
+dist/
+*.spec.bak
+venv/
+.venv/
+chromium/
+
+# ---- editor / sistema ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak
+*.bak-*
+_backups*/
+_rollback/
